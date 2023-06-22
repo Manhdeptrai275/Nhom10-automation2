@@ -26,7 +26,7 @@ public class Main {
 
         WebElement menu = driver.findElement(By.xpath("//button[text()='Open Menu']"));
         menu.click();
-
+//	Chọn pice low to high
         WebElement sortDropdown = driver.findElement(By.className("product_sort_container"));
         Select sortSelect = new Select(sortDropdown);
         sortSelect.selectByValue("lohi");
